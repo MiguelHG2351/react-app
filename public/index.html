@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Miguel Hernández" />
+    <meta name="keywords" content="Cursos de Matemáticas, Álgebra, Geometría, Trigonometría, Artificios Algebraicos">
+    <meta name="theme-color" content="#000000" />
+    <style>
+
+      button.stroke {
+        --bezel-colors: #e62427;
+        --backgroundV: #ffffff;
+        --bezel-width: 2;
+        padding: 5px;
+        color: black;
+        background-color: var(--backgroundV);
+        font-weight: bold;
+        outline: none;
+        padding: 1.2em 2em;
+        border: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        cursor: pointer;
+        margin: 5px 6px;
+        min-width: 150px;
+        /* max-width: 151px; */
+      
+        background-color: unset;
+        color: white;
+        background-image: paint(bezel);
+      }
+
+      button.stroke:hover {
+        --backgroundV: red
+      }
+
+      footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        background-color: #102774;
+      }
+
+      footer div {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7px;
+      }
+
+      .suscribe {
+        box-shadow:0 0 0 .2rem rgba(0,123,255,.25);
+        padding:.375rem .75rem;
+        font-size:1rem;
+        font-weight:400;
+        line-height:1.5;color:#495057;
+        background-clip:padding-box;
+        border:1px solid #ced4da;
+        border-radius:.25rem;
+        transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+      }
+
+    </style>
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!-- link Bootstrap -->
+    <title>MathForAll</title>
+  </head>
+  <body>
+    <noscript>Habilita JavaScript para que funcione la aplicación. La puedes activar en la configuración del navegador. Unsable JavaScript in your Navigator setting.</noscript>
+    <div id="root"></div>
+    <footer>
+      <div>
+        <button class="stroke">Math For All</button>
+      </div>
+      <div class="creditos">
+        <input class="suscribe" type="text" placeholder="Subscribirme" />
+      </div>
+      <p style="text-align:center; color:blanchedalmond">Dios te bendiga en la vida :)</p>
+    </footer>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+      
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+        
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+      -->
+      <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+      
+      <!-- Mis script -->
+
+      <script>
+        CSS.paintWorklet.addModule('bezel.js')
+      </script>
+      <script src="jquery-3.3.1.min.js"></script>
+      <script src="bootstrap.js"></script>
+
+  </body>
+</html>

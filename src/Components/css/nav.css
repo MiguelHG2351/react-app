@@ -1,0 +1,207 @@
+/* @import 'css/bootstrap.min.css' */
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+:root {
+    --back-image: #ff5511;
+}
+
+.section-course {
+    display: block;
+}
+
+.d.none {
+    display: none;
+}
+
+html {
+    font-family:Roboto, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header-nav {
+    box-shadow:0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+    align-items: center;
+}
+
+a {
+    text-decoration:none !important ;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+ul li a {
+    color: #000
+}
+
+.header-nav ul li {
+    list-style:none;
+}
+
+.header-nav ul li a{
+    color: rgba(250, 250, 250, .8);
+}
+
+@media (max-width:1600px) {
+    /* Encabezado || Header */
+
+    .header-site {
+        background-image: url(../images/back.jpg);
+    }
+
+    .header-nav {
+        padding: 17px;
+        background: rgba(29, 29, 145, 0.88);
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        height: 100px;
+        transition:all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .header-nav div {
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .header-nav div img {
+        width: 80px;
+        height: auto;
+        float: left;
+        margin-top: -8px;
+    }
+
+    /* Estilos de la lista de Navegación || Navbar */
+
+    .header-nav ul li {
+        margin: 5px;
+        padding: 14px;
+    }
+    .header-nav ul li:hover {
+        border-right: none;
+        border-radius: 30px;
+        background: rgba(94, 110, 250, 0.822);
+        /* color: #ffffff; */
+    }
+
+    .header-nav ul li a:hover {
+        color: #fff;
+    }
+
+    .w-50 {
+        width: 45%;
+    }
+
+    .divider {
+        border-right:8px solid rgba(0, 200, 100, 0.8);
+    }
+
+    .intro-site {
+        /* background-size: cove; */
+        /* background-image: url(images/back.jpg); */
+        background-color: white ;
+    }
+
+    .intro-title {
+        background-image: url(../images/logo192.png);
+        background-repeat: no-repeat;
+        background-size: 495px;
+        background-position-y: 34px;
+        background-position-x: center;
+    }
+
+    .intro-image {
+        position: relative;
+        top: 15px;
+        padding: 12px;
+    }
+    
+    .intro-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .align-epic {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .align-portada {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 7px;
+        background-color: white;
+        height: 650px;
+    }
+
+    /* Lista de curso || Course of list */
+
+    .list-course-index li:first-child {
+        margin-top: 0;
+    }
+
+    .list-course-index li {
+        cursor: pointer;
+        padding: 8px;
+        box-shadow: 0 0 3px 1px #000;
+        margin: 5px;
+        margin-top: 8px;
+        border-radius: 20px;
+        text-align:center;
+    }
+
+    .list-course-index li a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .list-course-index li a:hover {
+        color: white;
+    }
+
+    @keyframes Background-update {
+        25% {
+            background-image: linear-gradient(90deg, rgb(63, 80, 228), transparent, transparent);
+        }
+
+        60%{
+            background-image: linear-gradient(90deg, rgb(63, 80, 228), rgb(63, 80, 228), transparent);
+        }
+
+        100%{
+            background-color: rgb(63, 80, 228);
+        }
+    }
+
+    .list-course-index li:hover {
+        animation-name: Background-update;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media print {
+    body {
+        content: 'Jajajajaja xdxdxdxdxdddd';
+        display: none;
+    }
+}
