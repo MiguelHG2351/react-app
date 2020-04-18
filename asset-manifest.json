@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.df965e27.chunk.css",
+    "main.js": "/react-app/static/js/main.f09f86e6.chunk.js",
+    "main.js.map": "/react-app/static/js/main.f09f86e6.chunk.js.map",
+    "runtime-main.js": "/react-app/static/js/runtime-main.61f81c8c.js",
+    "runtime-main.js.map": "/react-app/static/js/runtime-main.61f81c8c.js.map",
+    "static/js/2.b4bc5268.chunk.js": "/react-app/static/js/2.b4bc5268.chunk.js",
+    "static/js/2.b4bc5268.chunk.js.map": "/react-app/static/js/2.b4bc5268.chunk.js.map",
+    "index.html": "/react-app/index.html",
+    "precache-manifest.38d6f078e1ddfece7d75fff30a7f0399.js": "/react-app/precache-manifest.38d6f078e1ddfece7d75fff30a7f0399.js",
+    "service-worker.js": "/react-app/service-worker.js",
+    "static/css/main.df965e27.chunk.css.map": "/react-app/static/css/main.df965e27.chunk.css.map",
+    "static/js/2.b4bc5268.chunk.js.LICENSE": "/react-app/static/js/2.b4bc5268.chunk.js.LICENSE",
+    "static/media/admitido.png": "/react-app/static/media/admitido.a9a7e724.png",
+    "static/media/nav.css": "/react-app/static/media/back.b07a0a94.jpg",
+    "static/media/backdeg.png": "/react-app/static/media/backdeg.e62c3105.png",
+    "static/media/err.PNG": "/react-app/static/media/err.35fdaa3a.PNG",
+    "static/media/helloWorld.png": "/react-app/static/media/helloWorld.9751cf72.png",
+    "static/media/josueConTom.png": "/react-app/static/media/josueConTom.ff3bc295.png",
+    "static/media/loader.gif": "/react-app/static/media/loader.951c2859.gif",
+    "static/media/numeropi.PNG": "/react-app/static/media/numeropi.dd083cda.PNG",
+    "static/media/pc.png": "/react-app/static/media/pc.9e2f4077.png",
+    "static/media/persona.png": "/react-app/static/media/persona.b78fd75e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61f81c8c.js",
+    "static/js/2.b4bc5268.chunk.js",
+    "static/css/main.df965e27.chunk.css",
+    "static/js/main.f09f86e6.chunk.js"
+  ]
+}
